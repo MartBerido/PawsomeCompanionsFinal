@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container {
+    width: 95%;
+    max-width: 520px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.form-group label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #555;
+    max-width: 480px;
+}
+.form-group .input-col {
+    margin-bottom: 10px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button-row button {
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+}
+
+.button-row button:first-child {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.button-row button:last-child {
+    background-color: #f25c5c;
+    color: #fff;
+}
+
+.button-row button:hover {
+    opacity: 0.9;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.form-group .input-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group .input-row .input-col {
+    margin-right: 20px;
+}
+
+.form-group .input-row .input-col:last-child {
+    margin-right: 20px;
+}
+
+.form-group .input-row:last-child {
+    margin-top: 10px;
+}
